@@ -4,6 +4,7 @@ def lower_triangular(n):
             print('*',end=' ')
         print()
 
-n = int(input("Enter number of rows: "))
-print("Lower triangular:")
-lower_triangular(n)
+if __name__ == "__main__":
+    n = int(input("Enter number of rows: "))
+    print("Lower triangular:")
+    lower_triangular(n)

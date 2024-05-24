@@ -7,6 +7,7 @@ def upper_triangular(n):
                 print('*', end=' ')
         print()
 
-n = int(input("Enter number of rows: "))
-print("upper Triangular:")
-upper_triangular(n)
+if __name__ == "__main__":
+    n = int(input("Enter number of rows: "))
+    print("upper Triangular:")
+    upper_triangular(n)
