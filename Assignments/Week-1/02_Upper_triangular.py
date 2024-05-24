@@ -8,4 +8,5 @@ def upper_triangular(n):
         print()
 
 n = int(input("Enter number of rows: "))
+print("upper Triangular:")
 upper_triangular(n)

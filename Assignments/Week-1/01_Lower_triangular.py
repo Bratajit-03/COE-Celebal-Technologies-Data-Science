@@ -5,4 +5,5 @@ def lower_triangular(n):
         print()
 
 n = int(input("Enter number of rows: "))
+print("Lower triangular:")
 lower_triangular(n)
