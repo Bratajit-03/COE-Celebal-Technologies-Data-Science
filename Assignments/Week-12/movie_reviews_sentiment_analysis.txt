@@ -1,0 +1,138 @@
+Document Sentiment: positive
+Overall scores: positive=0.67; neutral=0.08; negative=0.25
+
+Sentence: The movie was fantastic! The plot was engaging and the characters were well-developed.
+Sentence sentiment: positive
+Sentence score:
+Positive=0.98
+Neutral=0.01
+Negative=0.01
+......'positive' target 'movie'
+......Target score:
+......Positive=0.99
+......Negative=0.01
+......'positive' assessment 'fantastic'
+......Assessment score:
+......Positive=1.00
+......Negative=0.00
+......'positive' target 'plot'
+......Target score:
+......Positive=0.98
+......Negative=0.02
+......'positive' assessment 'engaging'
+......Assessment score:
+......Positive=0.99
+......Negative=0.01
+......'positive' target 'characters'
+......Target score:
+......Positive=0.97
+......Negative=0.03
+......'positive' assessment 'well-developed'
+......Assessment score:
+......Positive=0.99
+......Negative=0.01
+
+
+Document Sentiment: negative
+Overall scores: positive=0.10; neutral=0.20; negative=0.70
+
+Sentence: I did not enjoy the film. The story was too slow and the acting was mediocre.
+Sentence sentiment: negative
+Sentence score:
+Positive=0.10
+Neutral=0.20
+Negative=0.70
+......'negative' target 'film'
+......Target score:
+......Positive=0.10
+......Negative=0.90
+......'negative' assessment 'not enjoy'
+......Assessment score:
+......Positive=0.00
+......Negative=1.00
+......'negative' target 'story'
+......Target score:
+......Positive=0.05
+......Negative=0.95
+......'negative' assessment 'too slow'
+......Assessment score:
+......Positive=0.00
+......Negative=1.00
+......'negative' target 'acting'
+......Target score:
+......Positive=0.20
+......Negative=0.80
+......'negative' assessment 'mediocre'
+......Assessment score:
+......Positive=0.00
+......Negative=1.00
+
+
+Document Sentiment: mixed
+Overall scores: positive=0.50; neutral=0.20; negative=0.30
+
+Sentence: The cinematography was breathtaking, but the screenplay was lacking.
+Sentence sentiment: mixed
+Sentence score:
+Positive=0.60
+Neutral=0.10
+Negative=0.30
+......'positive' target 'cinematography'
+......Target score:
+......Positive=0.90
+......Negative=0.10
+......'positive' assessment 'breathtaking'
+......Assessment score:
+......Positive=0.99
+......Negative=0.01
+......'negative' target 'screenplay'
+......Target score:
+......Positive=0.20
+......Negative=0.80
+......'negative' assessment 'lacking'
+......Assessment score:
+......Positive=0.00
+......Negative=1.00
+
+
+Document Sentiment: positive
+Overall scores: positive=0.98; neutral=0.01; negative=0.01
+
+Sentence: An absolute masterpiece. The direction, the acting, and the music were all top-notch.
+Sentence sentiment: positive
+Sentence score:
+Positive=0.99
+Neutral=0.01
+Negative=0.00
+......'positive' target 'masterpiece'
+......Target score:
+......Positive=1.00
+......Negative=0.00
+......'positive' assessment 'absolute'
+......Assessment score:
+......Positive=1.00
+......Negative=0.00
+......'positive' target 'direction'
+......Target score:
+......Positive=0.99
+......Negative=0.01
+......'positive' assessment 'top-notch'
+......Assessment score:
+......Positive=1.00
+......Negative=0.00
+......'positive' target 'acting'
+......Target score:
+......Positive=0.98
+......Negative=0.02
+......'positive' assessment 'top-notch'
+......Assessment score:
+......Positive=1.00
+......Negative=0.00
+......'positive' target 'music'
+......Target score:
+......Positive=0.97
+......Negative=0.03
+......'positive' assessment 'top-notch'
+......Assessment score:
+......Positive=1.00
+......Negative=0.00
