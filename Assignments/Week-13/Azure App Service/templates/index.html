@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation System</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center min-vh-100">
+            <div class="col-md-10"> 
+                <div class="card shadow-lg">
+                    <div class="card-title text-center">CROP RECOMMENDATION SYSTEM</div>
+                    <div class="card-body">
+                        <form method="POST" action="/predict">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="Nitrogen">Nitrogen (N)</label>
+                                    <input type="number" class="form-control" id="Nitrogen" name="Nitrogen" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="Phosphorous">Phosphorous (P)</label>
+                                    <input type="number" class="form-control" id="Phosphorous" name="Phosphorous" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="Potassium">Potassium (K)</label>
+                                    <input type="number" class="form-control" id="Potassium" name="Potassium" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="Temperature">Temperature (°C)</label>
+                                    <input type="number" class="form-control" id="Temperature" name="Temperature" step="0.1" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="Humidity">Humidity (%)</label>
+                                    <input type="number" class="form-control" id="Humidity" name="Humidity" step="0.1" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="Soil PH">Soil PH (0-14)</label>
+                                    <input type="number" class="form-control" id="Soil PH" name="Soil PH" step="0.1" required>
+                                </div>
+                            </div>
+                            <div class="form-row justify-content-center">
+                                <div class="form-group col-md-6">
+                                    <label for="Rainfall" class="d-block text-center">Rainfall (in mm)</label>
+                                    <input type="number" class="form-control" id="Rainfall" name="Rainfall" step="0.1" required>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Predict</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
